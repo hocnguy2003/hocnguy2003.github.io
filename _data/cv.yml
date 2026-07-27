@@ -1,0 +1,88 @@
+cv:
+  name: Hoc Nguy
+  label: Electrical Engineering Student
+  email: hoc.nguy0058@gmail.com
+  phone: "385-461-3998"
+  location: Salt Lake City, Utah
+  image: ""
+  summary: Electrical Engineering student at the University of Utah focused on power electronics, embedded control, and mixed-signal design.
+
+  social_networks: []
+
+  address:
+    street: ""
+    city: Salt Lake City
+    region: Utah
+    postalCode: ""
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: University of Utah
+        location: Salt Lake City, Utah
+        area: Electrical Engineering
+        studyType: Bachelor of Science
+        start_date: 2022-08
+        end_date: 2026-12
+        score: "3.72/4.0"
+
+    Experience:
+      - company: Savill Engineering Vietnam
+        position: Electrical Technician Intern
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2025-06-16
+        end_date: 2025-08-10
+        highlights:
+          - Participated in the maintenance of MEP technical systems inside and outside the building.
+          - Practiced ATS operation under the supervision of a senior technician.
+          - Prepared weekly technical reports under guidance and review of the Chief Engineer.
+          - Completed learning assessments on ATS, UPS, FAS, and generator systems.
+
+    Projects:
+      - name: Miniaturized 65W GaN USB-C Fast Charger - Senior Project
+        summary: Designed a custom 65W dual-port USB Power Delivery charger with a JW1565 GaN power IC in a high-efficiency flyback topology.
+        highlights:
+          - Built a complete LTspice schematic including EMI filter, snubber network, transformer design, primary GaN switch, synchronous rectifier controller, and USB-PD controller.
+          - Designed and implemented a planar transformer to improve power density compared to conventional wound magnetics.
+          - Designed a multi-layer PCB in KiCad and EasyEDA, targeting a footprint smaller than commercial chargers.
+        start_date: 2026-01-07
+        end_date: ""
+
+      - name: Autonomous Multi-Sensor Mobile Robot
+        summary: Built an autonomous mobile robot integrating line following, wall following, and color sensing using an Arduino Nano 33 IoT.
+        highlights:
+          - Developed control algorithms in MATLAB and applied structured finite state machine logic for task sequencing and path planning.
+          - Designed a custom 3D-printed enclosure to house all sensors and electronics.
+        start_date: 2025-10-15
+        end_date: 2025-12-07
+
+      - name: Automated Fan Controller System
+        summary: Designed a temperature-controlled fan system using CD 4007 NMOS transistors.
+        highlights:
+          - Simulated and validated temperature sensing across various temperature ranges using LTSpice.
+          - Implemented the final design on a breadboard, achieving 2x faster threshold response than a design using basic logic gate control.
+        start_date: 2025-03-15
+        end_date: 2025-04-02
+
+    Skills:
+      - name: Software
+        level: Proficient
+        icon: fa-solid fa-laptop-code
+        keywords: "KiCad, LTSpice, MATLAB, Quartus, EasyEDA"
+
+      - name: Lab Equipment
+        level: Proficient
+        icon: fa-solid fa-flask
+        keywords: "Oscilloscope, Multimeter, Power Supply, Function Generator"
+
+      - name: Programming Languages
+        level: Proficient
+        icon: fa-solid fa-code
+        keywords: "Java, Verilog, Python"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+
+      - name: Vietnamese
+        summary: "Fluent"
